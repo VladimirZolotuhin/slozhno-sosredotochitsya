@@ -1,4 +1,17 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+@media (width <= 768px) {
+  .articals_container {
+    flex-direction: column;
+    justify-content: none;
+  }
+
+  .image-grid {
+    max-height: 823px;
+  }
+}
+
+@media (width <= 375px) {
+  .image-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}

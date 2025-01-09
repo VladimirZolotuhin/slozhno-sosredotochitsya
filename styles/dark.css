@@ -3,7 +3,16 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
+:root {
+  --main-font: 'IBM Plex Mono-Regular', sans-serif;
+  --accent-font: 'IBM Plex Mono-Bold', sans-serif;
+  --bg-color: #00183f;
+  --title-text-color: #db00ff;
+  --text-accent-color: #000028d9;
+  --main-text-color: #f1b2ce;
+  --accent-color: #ff0070d9;
+  --background-image: url(../images/cover-image-dark.png);
+}
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
