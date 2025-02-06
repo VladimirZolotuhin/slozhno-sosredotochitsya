@@ -1,6 +1,5 @@
 .page.theme_dark {
-  --main-font: 'IBM Plex Mono', monospace;
-  --accent-font: 'IBM Plex Mono', monospace;
+  --btn-hover: rgba(255, 0, 112, 0.4);
   --links-pseudo-classes-color: #f1b2ce;
   --link-text-shadow-color: #ff0070;
   --title-text-color: #db00ff;
@@ -9,7 +8,7 @@
   --text-accent-color: #000028;
   --main-text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --corners-color: #ff0070;
+  --corners-btn-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #00183f;
 }
