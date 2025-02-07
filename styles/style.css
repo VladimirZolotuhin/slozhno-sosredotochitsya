@@ -330,7 +330,7 @@
 
   .footer_title {
     margin-left: 0;
-    font-size: clamp(9.8125rem, 9.8125rem + 1vw, 10rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
@@ -381,5 +381,8 @@
   .footer {
     min-block-size: 768px;
     padding: var(--large-gap);
+  }
+  .footer_title {
+    font-size: (9.8125rem, 9.8125rem + 1vw, 10rem);
   }
 }

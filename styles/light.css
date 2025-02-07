@@ -21,6 +21,10 @@
   .theme_light .rec_mark {
     display: none;
   }
+
+  .theme_auto .rec_mark {
+    display: none;
+  }
 }
 
 .page.theme_light {
